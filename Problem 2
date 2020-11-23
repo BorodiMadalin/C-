@@ -1,0 +1,19 @@
+//convert positive number to negative and vice-versa
+
+
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+        
+            static void Main(string[] args)
+            {
+                string inputData = Console.ReadLine(); // citim primul număr
+                float a = float.Parse(inputData);
+                Console.WriteLine(-a);
+            }
+     
+    }
+}
