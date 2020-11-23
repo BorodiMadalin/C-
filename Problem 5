@@ -1,0 +1,20 @@
+// Train problem
+
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+            string z = Console.ReadLine(); 
+            float a = float.Parse(z);
+            
+           
+            
+            Console.WriteLine(a / 2);
+        }
+    }
+}
