@@ -1,0 +1,23 @@
+// Car consum
+
+
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+            string consum = Console.ReadLine(); // citim primul număr
+            int a = Convert.ToInt32(consum);
+            string full = Console.ReadLine();
+            int b = Convert.ToInt32(full);
+            Console.WriteLine(b * 100 / a);
+
+
+
+        }
+    }
+}
