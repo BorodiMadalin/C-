@@ -1,0 +1,31 @@
+// În X zile Y capre mănâncă Z kilograme de fân.
+//Să se scrie o aplicație ce returnează numărul de kilograme de fân pe care le mănâncă Q capre în W zile.
+//Datele de intrare sunt numere întregi și se vor citi de la tastatură, câte un număr pe linie, în următoarea ordine: X, Y, Z, Q, W.
+
+
+using System;
+
+namespace ConsoleApp1
+{
+    class Program
+    {
+
+        static void Main(string[] args)
+        {
+            string x = Console.ReadLine(); 
+            float a = float.Parse(x);
+            string y = Console.ReadLine();
+            float b = float.Parse(y);
+            string z = Console.ReadLine();
+            float c = float.Parse(z);
+            string q = Console.ReadLine();
+            int d = Convert.ToInt32(q);
+            string w = Console.ReadLine();
+            int e = Convert.ToInt32(w);
+            float  t = c / a / b;
+            float result = t * d * e;
+            Console.WriteLine(result);
+        }
+    }
+}
+
